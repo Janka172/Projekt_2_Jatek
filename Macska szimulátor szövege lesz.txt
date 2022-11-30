@@ -1,1 +1,11 @@
-Macska szimulátor
+\t\t\t\t\t - ! - Macska szimulátor - ! -\n\t - ! - A játék lényege az, hogy te egy macska szerepében tudd minél tovább túlélni.\nA játék folyamán a döntésed befolyásolják majd a végkifejletet. - ! -
+--Igaz történet alapján--
+- + - 1. nap - + -
+Az új gazdáid hazavittek magukkal egy új kutyát. Így már nem vagy együli háziállat. A kutya csak néhány hónapos, te meg már egy éves múltál, ami azt jeleni hogy előnyösek számodra az erőviszonyok. Az első találkozásotok alkalmával...
+1: Megtámadot, ezzel bosszút állva azért mert úgy érzed hogy lecserélnek. (+1)
+2: Nem foglalkozol vele, ameddig ő is békén hagy téged nem érdekel. (0)
+3: Elfutsz, mert félsz az ismeretlen állattól. (-1)
+Következmény:
+1 - A gazdáid egyre jobban haragsznak rád.
+
+  /\_/\  (\n ( ^.^ ) _)\n   \"/  (\n ( | | )\n(__d b__)\n

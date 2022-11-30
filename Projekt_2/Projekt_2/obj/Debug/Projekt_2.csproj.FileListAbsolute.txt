@@ -5,3 +5,10 @@ C:\Users\Detlef Wagner\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\
 C:\Users\Detlef Wagner\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.csproj.CoreCompileInputs.cache
 C:\Users\Detlef Wagner\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.exe
 C:\Users\Detlef Wagner\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.pdb
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.csproj.AssemblyReference.cache
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.csproj.CoreCompileInputs.cache
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.exe
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\obj\Debug\Projekt_2.pdb
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\bin\Debug\Projekt_2.exe.config
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\bin\Debug\Projekt_2.exe
+C:\Users\hj_info2005a2\Documents\GitHub\Projekt_2_Jatek\Projekt_2\Projekt_2\bin\Debug\Projekt_2.pdb
