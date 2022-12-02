@@ -89,10 +89,10 @@ namespace Projekt_2
                             case "2": meghalsz = meghalsz + 2; break;
                             default: break;
                         }
-                        if (meghalsz == 1) //3. nap - 1. verzió (1)
+                        if (meghalsz == 1) //3. nap - 1. verzió (1) 
                         {
                             Console.WriteLine("\n- + - 3. nap - + -");
-                            Console.WriteLine();
+                            Console.WriteLine("Próbálod kerülni a konfliktust, amit a gazdáid észre is vesznek. Kimész az udvarra, körülnézel látszólag minden rendben, de csak látszólag ");
                         }
                         if (meghalsz == 2) //3. nap - 2. verzió (2) - K
                         {
@@ -333,9 +333,44 @@ namespace Projekt_2
 }
 
 /*
- * if (meghalsz == 6) //8. nap - 2. verzió (6)
+ * if (meghalsz == ) //. nap - . verzió ()
    {
-      Console.WriteLine("\n- + - 7. nap - + -");
+      Console.WriteLine("\n- + - . nap - + -");
       Console.WriteLine("");
    }
  */
+
+if (meghalsz == 4) //4. nap - 2. verzió (4) - K
+{
+    Console.WriteLine("\n- + - 4. nap - + -");
+    Console.WriteLine("A gazdáid egyre mérgesebbek az összekoszolt ruhák miatt, de látszólag már elengedték a témát. Azt érzed, hogy nem foglalkoznak veled, csak az ablakból nézed, ahogyan játsznak kint a kutyával. Azt gondolod kitaláltad a megfelelő bósszút. Kimész és...");
+    Console.WriteLine("1: Kikarmolod a medence oldalát\n2: Felkaparod a bőrszék háttámláját\n\t");
+    string negyediknap = "";
+    do
+    {
+        negyediknap = Console.ReadLine();
+    } while (negyediknap != "1" && negyediknap != "2");
+    switch (negyediknap)
+    {
+        case "1": meghalsz++; break;
+        case "2": meghalsz += 2; break;
+        default: break;
+    }
+    if (meghalsz == 6) //5. nap - 1. verzió (6) - K
+    {
+        Console.WriteLine("\n- + - 5. nap - + -");
+        Console.WriteLine("A gazdáid végleg megélégeltek.\nMásnap beleraktak egy macskahordozóba, felvittek a közeli hídra, ledobtak a hordozóval eggyütt.\nVége.\nZuhanás közbe kapálóztál, lökted a rácsokat, de esélytelen becsapódtál a vízbe, mindent elöntött a víz. A hordozó súlya lehúzott a folyó aljára. Sötétedik a kép, kapkodva próbálsz levegőt venni... utoljára... a légcsövedet elönti a víz... többször már megpróbálni sem tudod.");
+        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\t - ! - Sikerült hatásosan eljátsznaod egy macskát! - ! -\n\t");
+        Console.ForegroundColor = ConsoleColor.White;
+    }
+    if (meghalsz == 5) //5. nap - 2. verzió (5) - K
+    {
+        Console.WriteLine("\n- + - 5. nap - + -");
+        Console.WriteLine("A gazdáid végleg megélégeltek.\nAmint meglátták hogy mit csináltál azzal a székkel arra idegből utánnad dobtak egy kalapácsot.\nVége.\nA kalapács feléd repül, a fény megtörik a fején ami a sok használattól már enyhén kopott, most mégis fényesebben tűnik mint bármi más. Leblokkolsz. Nem tudsz időben elugrani. Egy erős becsapódást érzel a fejeden, és... képszakadás... többet már nem látod a kalapács fényét, de mást sem.");
+        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\t - ! - Sikerült hatásosan eljátsznaod egy macskát! - ! -\n\t");
+        Console.ForegroundColor = ConsoleColor.White;
+    }
