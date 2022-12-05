@@ -17,7 +17,7 @@ namespace Projekt_2
             while (akarsz == "i")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\n\n\nMi szertnél játszani?\n");
+                Console.WriteLine("\n\n\nMit szertnél játszani?\n");
                 Console.ForegroundColor = ConsoleColor.White;
                 do
                 {
@@ -451,21 +451,23 @@ namespace Projekt_2
                             }
 
                         }
-                        do
-                        {
-                            Console.Write("Akarsz még játszani? [i/n]");
-                            akarsz = Console.ReadLine();
-                        } while (akarsz != "i" && akarsz != "n");
+                        
 
                     }
-                    Console.ReadKey();
+                    
+                            }
+                        }
+                    }
                 }
+                    }
+                }
+                do
+                {
+                    Console.Write("Akarsz még játszani? [i/n]");
+                    akarsz = Console.ReadLine();
+                } while (akarsz != "i" && akarsz != "n");
             }
-        }
-    }
-        }
-    }
-}
+            Console.ReadKey();
         }
     }
 }
