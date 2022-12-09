@@ -927,9 +927,23 @@ namespace Projekt_2
                                                 }
                                                 if (meghalsz == 0)//9. nap (0)
                                                 {
-                                                    if (meghalsz == 3) //3. nap - 3. verzió (3)
+                                                    Console.WriteLine("\n- + - 9. nap - + -");
+                                                    Console.WriteLine("");
+                                                    Console.WriteLine("1: \n2: \n\t");
+                                                    igen = "";
+                                                    do
                                                     {
-                                                        Console.WriteLine("\n- + - 3. nap - + -");
+                                                        igen = Console.ReadLine();
+                                                    } while (igen != "1" && igen != "2");
+                                                    switch (igen)
+                                                    {
+                                                        case "1": meghalsz++; break;
+                                                        default: break;
+                                                    }
+
+                                                    if (meghalsz == 1) //10. nap (1)
+                                                    {
+                                                        Console.WriteLine("\n- + - 10. nap - + -");
                                                         Console.WriteLine("nReggel szokásuk szerint a gazdáid elmetek dolgozni. Körülnézel a lakásban sehol semmi. Felugrasz az asztalra, de érzed, hogy valamibe beleragadt a lábad. Gyorsan leugrasz, ragasztó... próbálkoznak... Ezek után elmész és...");
                                                         Console.WriteLine("1: Befekszel a frissen mostott ruhák közé, hogy a sok szőr miatt újra kelljen mosni mindet\n2: Ráhánysz a lábtörlőre, hogy amikorkinyitjákazajtótszétkenjékaz egészen\n\t");
                                                         igen = "";
@@ -940,13 +954,13 @@ namespace Projekt_2
                                                         switch (igen)
                                                         {
                                                             case "1": meghalsz++; break;
-                                                            case "2": meghalsz += 2; break;
+                                                            case "2": meghalsz += 4; break;
                                                             default: break;
                                                         }
 
-                                                        if (meghalsz == 5) //4. nap - 1. verzió (5)
+                                                        if (meghalsz == 5) //11. nap - 1. verzió (5)
                                                         {
-                                                            Console.WriteLine("\n- + - 4. nap - + -");
+                                                            Console.WriteLine("\n- + - 11. nap - + -");
                                                             Console.WriteLine("A gazdáid végleg megélégeltek.\nAhogy beléptek az ajtón és a meglátták a meglepetésedet. Másnap beleraktak egy macskahordozóba,kivittekkétháromvárossalodébb, és kint hagytak az út szélén.\nTe meg vagy róla gyúzúdve hogy jól megleszel nélkülük is, sétálsz pár métert elaz autótól. Érzed hogy korogeggyetahasad, azonnalrájössz, hogy ez neked nem fog menni visszafutsz az autóhoz, de az akkorra már elindult\nVége.\nAz autó kereke ahogyan szépen lenyomta atestedazaszfaltra az összescsontod és szerved egyszerre roppant össze.");
                                                             Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══\n");
                                                             Console.ForegroundColor = ConsoleColor.Red;
@@ -954,9 +968,9 @@ namespace Projekt_2
                                                             Console.ForegroundColor = ConsoleColor.White;
                                                         }
 
-                                                        if (meghalsz == 4) //4. nap - 2. verzió (4)
+                                                        if (meghalsz == 2) //11. nap - 2. verzió (2)
                                                         {
-                                                            Console.WriteLine("\n- + - 4. nap - + -");
+                                                            Console.WriteLine("\n- + - 11. nap - + -");
                                                             Console.WriteLine("A gazdáid egyre mérgesebbek az összekoszolt ruhák miatt, de látszólag már elengedték a témát. Azt érzed, hogy nem foglalkoznakveled, csakazablakbónézed, ahogyan játsznak kint a kutyával. Azt gondolod kitaláltad a megfelelő bósszút. Kimész és...");
                                                             Console.WriteLine("1: Kikarmolod a medence oldalát\n2: Felkaparod a bőrszék háttámláját\n\t");
                                                             igen = "";
@@ -966,22 +980,22 @@ namespace Projekt_2
                                                             } while (igen != "1" && igen != "2");
                                                             switch (igen)
                                                             {
-                                                                case "1": meghalsz++; break;
-                                                                case "2": meghalsz += 2; break;
+                                                                case "1": meghalsz+=4; break;
+                                                                case "2": meghalsz += 3; break;
                                                                 default: break;
                                                             }
-                                                            if (meghalsz == 6) //5. nap - 1. verzió (6)
+                                                            if (meghalsz == 6) //12. nap - 1. verzió (6)
                                                             {
-                                                                Console.WriteLine("\n- + - 5. nap - + -");
+                                                                Console.WriteLine("\n- + - 12. nap - + -");
                                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nMásnap beleraktak egy macskahordozóba, felvittek a közeli hídra, ledobtak a hordozóvaleggyütt.\nVég\nZuhanásközbekapálóztál, lökted a rácsokat, de esélytelen becsapódtál a vízbe, mindent elöntött a víz. A hordozó súlyalehúzott a folyó aljára. Sötétedik akép,kapkodvapróbálszlevegőt venni... utoljára... a légcsövedet elönti a víz... többször már megpróbáln sem tudod.");
                                                                 Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                                                 Console.ForegroundColor = ConsoleColor.Red;
                                                                 Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                             }
-                                                            if (meghalsz == 5) //5. nap - 2. verzió (5)
+                                                            if (meghalsz == 5) //12. nap - 2. verzió (5)
                                                             {
-                                                                Console.WriteLine("\n- + - 5. nap - + -");
+                                                                Console.WriteLine("\n- + - 12. nap - + -");
                                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nAmint meglátták hogy mit csináltál azzal a székkel arra idegből utánnad dobtak egy kalapácsot\nVége\nAkalapácsfelédrepül, a fény megtörik a fején ami a sok használattól már enyhén kopott, most mégis fényesebben tűnik mint bármi más Leblokkolsz. Nem tudszidőbenelugrani Egy erősbecsapódást érzel a fejeden, és... képszakadás... többet már nem látod a kalapács fényét, de mást sem.");
                                                                 Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                                                 Console.ForegroundColor = ConsoleColor.Red;
@@ -989,6 +1003,11 @@ namespace Projekt_2
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                             }
                                                         }
+                                                    }
+
+                                                    if (meghalsz == 0)//10. nap (0)
+                                                    {
+
                                                     }
                                                 }
                                             }
