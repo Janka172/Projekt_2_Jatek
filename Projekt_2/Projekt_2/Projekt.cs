@@ -1008,7 +1008,7 @@ namespace Projekt_2
                                                     if (meghalsz == 0)//10. nap (0)
                                                     {
                                                         Console.WriteLine("\n- + - 10. nap - + -");
-                                                        Console.WriteLine("");
+                                                        Console.WriteLine("Reggel úgy gondolod, hogy elmész meglátogatni kedvenc ló-barátodat.\nÁtugrasz a kerítésen kint legalább tz ló, de Őt nem látod. Felmész az istáálóhoz és látod, hogy éppen felviszik egy lószállítóra. Úgy döntesz megállítod az autót... naív... mikorra közelérsz akkorra már elindult.\nVége.\nAz autó kereke ahogyan lenyomta a tested az aszfaltra az összes csontod és szerved egyszerre roppant össze.");
                                                         Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══\n");
                                                         Console.ForegroundColor = ConsoleColor.Red;
                                                         Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
