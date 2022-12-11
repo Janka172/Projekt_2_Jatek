@@ -1032,7 +1032,7 @@ namespace Projekt_2
                     Console.ForegroundColor = ConsoleColor.White;
                     akarsz = Console.ReadLine();
                 } while (akarsz != "i" && akarsz != "n");
-            }
+            };
             Console.ReadKey();
         }     
     }
