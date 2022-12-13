@@ -29,11 +29,14 @@ namespace Projekt_2
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\t\t\t\t\t - ! - Bűnügyi nyomozás - ! -\n\t");
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine(" - ! - Egy fő háttértörtének és az abban szereplő emberek elmondásai alapján kell megfejtened egy bűnügyi esetet! - ! - \n - !- Jól gondold át a válaszodat a döntésed, hiszen csak egy lehetőséged van elkapni az elkövetőt! - ! - \nEgy szombat hajnali egy óra felé egy férfit a hálószobájában találnak holtan, mellkason szúrva. A házban a felesége, a kertész és egy szakács tartózkodott az eset ideje alatt. A feleség hívta ki a rendőrséget szombaton, reggel, fél tizenegy órakor. A nyomozó, nem mondott el senkinek semmi részletet vagy körülményt a gyilkossággal kapcsolatban, azonnal a potenciális elkövetők alibijére volt kíváncsi:\n\tFeleség: Állítása szerint a férjét az előző esti vacsoránál látta utoljára, ami után átment a lányukhoz és ott aludt, aki két utcával odébb lakott, de a férje nem tartott vele, mert már nagyon fáradt volt. A kertésszel találkozott indulás előtt, éppen a sövényt nyírta formára. Este fél tizenkettő után három perccel még felhívta a szakácsot, hogy szóljon neki arról hogy késik a reggeliről. Ezért ért haza fél tizenegy órakor, amikor is rátalált a férje holt testére.\n\tA feleség alibijét hallva a nyomozó felvette az özvegy lányának a vallomását is. \n\tA lány biztosan állította, hogy az anyja előző éjszakán náluk aludt. Beszámolt arról is, hogy mielőtt az anyja odaért volna, felhívta az apját aki elmondta neki, hogy fáradtsága miatt inkább otthon marad. A lány sajnálta, de nem erősködött, mert tudta, hogy apja akkoriban sokat gyengélkedett. Másnap az anyja hívta fel dél előtt tíz perccel, hogy elmondja neki a halálhírt.\n\tKerész: Állítása szerint este lenyírta a sövényt, miközben találkozott a feleséggel, aki egyedül hagyta el a ház területét, de utána nem látta aznap, csak másnap mikor dolgozni indult és akkorra már a feleség a rendőrséggel együtt fogadta. Még este bepakolt a fészerbe és indulása előtt lement a konyhába, ez éjfélkor történt, senki nem volt a konyhában a csap tele volt a elmosatlan edényekkel, látszólag minden rendben volt, egy valamit kivéve egy fiókot. A fiók ki volt húzva, hiányzott belőle egy kés, ami azért volt feltűnő hiszen a tokja üresen hevert. Kifelé menet látta a szakácsot a nappaliban nézte a tv-t, elköszönt tőle, de a szakács csak ránézett és nevetett. A kertész szerint a szakács gyakran viselkedett furcsán, de azt gondolta biztos ivott megint valamit. \n\tSzakács: Állítása szerint a vacsora után elmosogatott, és mivel már nem volt dolga éjfélkor hazament, nem találkozott senkivel, másnap akkor ért a házhoz mikor a feleség felhívta azzal, hogy a nyomozó beszélni szeretne vele. Első reakciója az volt, hogy rákérdezzen arra, hogy megtalálták-e azt a kést amivel a gyilkosságot elkövették.");
+                    Console.WriteLine(" - ! - Egy fő háttértörtének és az abban szereplő emberek elmondásai alapján kell megfejtened egy bűnügyi esetet! - ! - \n - !- Jól gondold át a válaszodat a döntésed, hiszen csak egy lehetőséged van elkapni az elkövetőt! - ! - \n\nEgy szombat hajnali egy óra felé egy férfit a hálószobájában találnak holtan, mellkason szúrva. A házban a felesége, a kertész és egy szakács tartózkodott az eset ideje alatt. A feleség hívta ki a rendőrséget szombaton, reggel, fél tizenegy órakor. A nyomozó, nem mondott el senkinek semmi részletet vagy körülményt a gyilkossággal kapcsolatban, azonnal a potenciális elkövetők alibijére volt kíváncsi:\n\tFeleség: Állítása szerint a férjét az előző esti vacsoránál látta utoljára, ami után átment a lányukhoz és ott aludt, aki két utcával odébb lakott, de a férje nem tartott vele, mert már nagyon fáradt volt. A kertésszel találkozott indulás előtt, éppen a sövényt nyírta formára. Este fél tizenkettő után három perccel még felhívta a szakácsot, hogy szóljon neki arról hogy késik a reggeliről. Ezért ért haza fél tizenegy órakor, amikor is rátalált a férje holt testére.\n\tA feleség alibijét hallva a nyomozó felvette az özvegy lányának a vallomását is. \n\tA lány biztosan állította, hogy az anyja előző éjszakán náluk aludt. Beszámolt arról is, hogy mielőtt az anyja odaért volna, felhívta az apját aki elmondta neki, hogy fáradtsága miatt inkább otthon marad. A lány sajnálta, de nem erősködött, mert tudta, hogy apja akkoriban sokat gyengélkedett. Másnap az anyja hívta fel dél előtt tíz perccel, hogy elmondja neki a halálhírt.\n\tKerész: Állítása szerint este lenyírta a sövényt, miközben találkozott a feleséggel, aki egyedül hagyta el a ház területét, de utána nem látta aznap, csak másnap mikor dolgozni indult és akkorra már a feleség a rendőrséggel együtt fogadta. Még este bepakolt a fészerbe és indulása előtt lement a konyhába, ez éjfélkor történt, senki nem volt a konyhában a csap tele volt a elmosatlan edényekkel, látszólag minden rendben volt, egy valamit kivéve egy fiókot. A fiók ki volt húzva, hiányzott belőle egy kés, ami azért volt feltűnő hiszen a tokja üresen hevert. Kifelé menet látta a szakácsot a nappaliban nézte a tv-t, elköszönt tőle, de a szakács csak ránézett és nevetett. A kertész szerint a szakács gyakran viselkedett furcsán, de azt gondolta biztos ivott megint valamit. \n\tSzakács: Állítása szerint a vacsora után elmosogatott, és mivel már nem volt dolga éjfélkor hazament, nem találkozott senkivel, másnap akkor ért a házhoz mikor a feleség felhívta azzal, hogy a nyomozó beszélni szeretne vele. Első reakciója az volt, hogy rákérdezzen arra, hogy megtalálták-e azt a kést amivel a gyilkosságot elkövették.");
                     string kiaz = "0";
                     do
                     {
-                        Console.Write("Ki lehetett a gyilkos? \n1: A feleség\n2: A szakács\n3: A kertész\n");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write("Ki lehetett a gyilkos? \n");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("1: A feleség\n2: A szakács\n3: A kertész\n");
                         kiaz = Console.ReadLine();
                     } while (kiaz != "1" && kiaz != "2" && kiaz != "3");
                     if (kiaz == "2")
@@ -117,9 +120,9 @@ namespace Projekt_2
                                 Console.WriteLine("\n- + - 4. nap - + -");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 Console.WriteLine("A gazdáid úgy gondolják, hogy mivel veszélyt jelentesz új házikedvecükre, ez megrémítí őket. Elkezdenek félni tőled. Vajon ha megtámadtad a kutyát mi választ el attól, hogy majd a gyerekeket is?\nÚgy döntenek, hogybevisznek egy menhelyre. Te nem akarsz ott lenni hiányzik az otthon, hiányoznak az ismerősök, hiányoznak az ismerős emberek, az ismerős helyek, az ismerős tártyak, a biztonságos közeg. Reccsen egy zár, törik egy ajtó egy hatalmas fehér keverék kutya fut feléd.\nVége\nA kutya állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                 Console.ForegroundColor = ConsoleColor.White;
                             }
                             if (meghalsz == 4)
@@ -127,7 +130,7 @@ namespace Projekt_2
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("\n- + - 4. nap - + -");
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.WriteLine("A gazdáid hazaérnek, meglátják azt, hogy mi történt a frisssen vásárolt függönnyel. Már alig bírják megálni, hogy ne tegyenek kóbor macskává, de él még bennük a remény irántad. Lecserélik az összes függönyt, elpakolnak a polcokról.\nReggel szokásosan megetetnek, és elmennek dolgozni. Kisétálsz a nappaliba éppen sikerül felugranod a polcra ahogyan meglátod hogy a kutya feléd közeledik. Ógy döntesdz, hogy elmész aludni, azzal legalább elmegy az idő.\n");
+                                Console.WriteLine("A gazdáid hazaérnek, meglátják azt, hogy mi történt a frisssen vásárolt függönnyel. Már alig bírják megálni, hogy ne tegyenek kóbor macskává, de él még bennük a remény irántad. Lecserélik az összes függönyt, elpakolnak a polcokról.\nReggel szokásosan megetetnek, és elmennek dolgozni. Kisétálsz a nappaliba éppen sikerül felugranod a polcra ahogyan meglátod hogy a kutya feléd közeledik. Ógy döntesdz, hogy elmész aludni, azzal legalább elmegy az idő.");
                                 Console.WriteLine(" Aludtál három órán keresztül, arra ébredsz, hogy éhes vagy. Körülnézel feltérképezed a környzetet, lemászol a szekrényről, és ahogy a táladhoz érsz, azt veszed észre, hogy üres, és a kutya ott alszik mellette.\nVisszamész a nappaliba, látod, hogy szemben a polcon van egy zacskó kutya kaja... ");
                                 Console.WriteLine("1: Visszafekszel aludni, és majd eszel amikor a gazdáid hazajönnek és megetetnek\n2: Felugrasz a szekrényre és bosszúból beleeszel a kutya kajájába\n\t");
                                 igen = "";
@@ -196,26 +199,26 @@ namespace Projekt_2
                                                 default:
                                                     break;
                                             }
-                                            if (meghalsz == 5)
+                                            if (meghalsz == 7)
                                             {
                                                 Console.ForegroundColor = ConsoleColor.Red;
                                                 Console.WriteLine("\n- + - 8. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("Kapálózol a vízben. Lehet rosszkor, de most jössz rá, hogy nem tudsz úszni. Egyszer csak elmerülsz, hallod a gyerekel hangját, ahogy hívják a szüleiket. Nem mernek neked segíteni, de a szülök nem érnek od időben.\nVége\nEgyre halkabban hallod a gyerekek hangját, míg végül teljesen eltompul... Többen nem hallasz semmit.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
-                                            if (meghalsz == 6)
+                                            if (meghalsz == 8)
                                             {
                                                 Console.ForegroundColor = ConsoleColor.Red;
                                                 Console.WriteLine("\n- + - 8. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("Belekapsz a medencébe, a karmod beleakad, nem tudod elengedni, magadra rántod az egész medencét.\nVége.\n Rádtkeredik, egyre szorosabb, egyre erősebb, egyre kevesebb levegő jut be, egyre kevesebb a fény, egyre kevesebb hangot hallasz, egyre kevésbé érzel... Levegőért kapsz ahogyan a mellkasod behúzódik a medence fala jobban rád szorul... többet már nem húzódik be.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                         }
@@ -225,33 +228,33 @@ namespace Projekt_2
                                             Console.WriteLine("\n- + - 7. nap - + -");
                                             Console.ForegroundColor = ConsoleColor.White;
                                             Console.WriteLine("Beleeszel a palcsintába, szokatlan íze van, de nem törődsz vele. Eszer csak valami hasító fájdalmat érzel, hátrébb képsz és ránézel az ételre. Látsz benne egy kis sárga kockát, lehet hogy az okozta a furcsa ízt?\nVége.\nPatkány méreg... hirten a fájdalmaid közepette lefeköt sem kapsz. Ugrasz eggyet hátra, amivel lelököd az egyik poharat... de többé nem löksz le semmit.");
-                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                             Console.ForegroundColor = ConsoleColor.Red;
-                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                             Console.ForegroundColor = ConsoleColor.White;
                                         }
                                     }
-                                    if (meghalsz == 5)
+                                    if (meghalsz == 6)
                                     {
                                         Console.ForegroundColor = ConsoleColor.Red;
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("A gazdáid végleg megélégeltek.\n Kinyitják az ablakot, nem tudsz időben elugrani látod, hogy a gazdád emeli a kezét, erősen megütött mire te hátraesel, egészen bele az ablak alatt lévő kerítés drótjába.\nVége.\nÉrzed, ahogyan egy egy nagy fémdarab átfúródik a testeden. Egy meleg érzés önt el. Vér. Érzed, hogy tovább zuhansz... de hirtelen már nem érzed... de többé mást sem.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                 }
-                                if (meghalsz == 3)
+                                if (meghalsz == 6)
                                 {
                                     Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("A gazdáid kénytelenek feltakarítani utánnad, dühből kiraknak az ajtó elé. Meglátod, hogy egy nagy fekete rottweiler. Leblokkolsz, de még a reflekszeid képesek annyira, hogy futni kezdj, egy kis utcába kanyarodsz, mivel ritkán jársz kint így nem tudtad, hogy az ott egy zsákutca. Pedig az volt. Saroba vagy szorítva, nem tudsz átmászni. Látod hogy a kutya feléd fut, és '...\nVége.\nA rottweiler állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                             }
@@ -280,9 +283,9 @@ namespace Projekt_2
                                 Console.WriteLine("\n- + - 4. nap - + -");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 Console.WriteLine("A gazdáid úgy gondolják, hogy mivel veszélyt jelentesz újházikedvecükre,ezmegrémítíőket.ElkezdenekfélnitőledVajohamegtámadtad a kutyát mi választ el attól, hogy majd a gyerekeket \nÚgydöntenek,hogybevisznek egymenhelyre.Tenemakarszottlennihiányzik az otthon, hiányoznak az ismerősök, hiányoznakazismerősemberek a ismerőshelyek, az ismerő tártyak,biztonságosközeg.Reccsen egy zár, törik egy ajtó egy hatalmasfehérkeverékkutyafut feléd\nVége.\nAkutyaállkapcsaiösszecsattannak, agond az,hogy te afogai közt vagy. Egyhatalmasrecsenésthallasz... asajátbordáid... többet mánemhallod areccsenést... de többé mármástsem.");
-                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                 Console.ForegroundColor = ConsoleColor.White;
                             }
                             if (meghalsz == 4)
@@ -328,9 +331,9 @@ namespace Projekt_2
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("A gazdáid végleg megélégeltek.\n Kinyitják az ablakot, nem tudsz időben elugrani látod, hogy a gazdádemeli a kezét, erősen megütött mire te hátraesel, egészen bele az ablak alatt lévő kerítés drótjába.\nVége.\nÉrzed, ahogyan eg egy nagy fémdarab átfúródik a testeden. Egy meleg érzés önt el. Vér. Érzed, hogy tovább zuhansz... de hirtelen már nemérzed... de többé mást sem.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                     if (meghalsz == 5)
@@ -366,9 +369,7 @@ namespace Projekt_2
                                             switch (igen)
                                             {
                                                 case "1": break;
-                                                case "2": meghalsz++; break;
-                                                default:
-                                                    break;
+                                                default: meghalsz++; break;
                                             }
 
                                             if (meghalsz == 5)
@@ -377,9 +378,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 8. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("Kapálózol a vízben. Lehet rosszkor, de most jössz rá, hogy nem tudsz úszni. Egyszer csak elmerülsz, hallod a gyerekel hangját, ahogy hívják a szüleiket. Nem mernek neked segíteni, de a szülök nem érnek od időben.\nVége.\nEgyre halkabban hallod a gyerekek hangját, míg végül teljesen eltompul... Többen nem hallasz semmit.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                             if (meghalsz == 6)
@@ -388,9 +389,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 8. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("Belekapsz a medencébe, a karmod beleakad, nem tudod elengedni, magadra rántod az egész medencét.\nVége.\n Rádtkeredik, egyre szorosabb, egyre erősebb, egyre kevesebb levegő jut be, egyre kevesebb a fény, egyre kevesebb hangot hallasz, egyre kevésbé érzel... Levegőért kapsz ahogyan a mellkasod behúzódik a medence fala jobban rád szorul... többet már nem húzódik be.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                         }
@@ -400,9 +401,9 @@ namespace Projekt_2
                                             Console.WriteLine("\n- + - 7. nap - + -");
                                             Console.ForegroundColor = ConsoleColor.White;
                                             Console.WriteLine("Beleeszel a palcsintába, szokatlan íze van, de nem törődsz vele. Eszer csak valami hasító fájdalmat érzel, hátrébb képsz és ránézel az ételre. Látsz benne egy kis sárga kockát, lehet hogy az okozta a furcsa ízt?\nVége.\nPatkány méreg... hirten a fájdalmaid közepette lefeköt sem kapsz. Ugrasz eggyet hátra, amivel lelököd az egyik poharat... de többé nem löksz le semmit.");
-                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                             Console.ForegroundColor = ConsoleColor.Red;
-                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                             Console.ForegroundColor = ConsoleColor.White;
                                         }
                                     }
@@ -413,9 +414,9 @@ namespace Projekt_2
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("A gazdáid kénytelenek feltakarítani utánnad, dühből kiraknak az ajtó elé. Meglátod, hogy egy nagy fekete rottweiler. Leblokkolsz, de még a reflekszeid képesek annyira, hogy futni kezdj, egy kis utcába kanyarodsz, mivel ritkán jársz kint így nem tudtad, hogy az ott egy zsákutca. Pedig az volt. Saroba vagy szorítva, nem tudsz átmászni. Látod hogy a kutya feléd fut, és '...\nVége.\nA rottweiler állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                             }
@@ -445,9 +446,9 @@ namespace Projekt_2
                                 Console.WriteLine("\n- + - 4. nap - + -");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nAhogy beléptek az ajtón és a meglátták a meglepetésedet. Másnap beleraktak egy macskahordozóba, kivittek két-három várossal odébb, és kint hagytak az út szélén.\nTe meg vagy róla gyúzúdve hogy jól megleszel nélkülük is, sétálsz pár métert el az autótól. Érzed hogy korog eggyet a hasad, azonnal rájössz, hogy ez neked nem fog menni visszafutsz az autóhoz, de az akkorra már elindult.\nVége.\nAz autó kereke ahogyan szépen lenyomta a tested az aszfaltra az összes csontod és szerved egyszerre roppant össze.");
-                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                 Console.ForegroundColor = ConsoleColor.White;
                             }
 
@@ -465,8 +466,8 @@ namespace Projekt_2
                                 } while (igen != "1" && igen != "2");
                                 switch (igen)
                                 {
-                                    case "1": meghalsz++; break;
-                                    case "2": meghalsz += 2; break;
+                                    case "1": meghalsz += 2; break;
+                                    case "2": meghalsz++; break;
                                     default: break;
                                 }
                                 if (meghalsz == 6)
@@ -475,9 +476,9 @@ namespace Projekt_2
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("A gazdáid végleg megélégeltek.\nMásnap beleraktak egy macskahordozóba, felvittek a közeli hídra, ledobtak a hordozóval eggyütt.\nVége.\nZuhanás közbe kapálóztál, lökted a rácsokat, de esélytelen becsapódtál a vízbe, mindent elöntött a víz. A hordozó súlya lehúzott a folyó aljára. Sötétedik a kép, kapkodva próbálsz levegőt venni... utoljára... a légcsövedet elönti a víz... többször már megpróbálni sem tudod.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                                 if (meghalsz == 5)
@@ -486,9 +487,9 @@ namespace Projekt_2
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("A gazdáid végleg megélégeltek.\nAmint meglátták hogy mit csináltál azzal a székkel arra idegből utánnad dobtak egy kalapácsot.\nVége.\nA kalapács feléd repül, a fény megtörik a fején ami a sok használattól már enyhén kopott, most mégis fényesebben tűnik mint bármi más. Leblokkolsz. Nem tudsz időben elugrani. Egy erős becsapódást érzel a fejeden, és... képszakadás... többet már nem látod a kalapács fényét, de mást sem.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                             }
@@ -569,9 +570,9 @@ namespace Projekt_2
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("Megeszed a maradékot, nem ismered fel az ízét, szerinted még nem is ettél ilyesmit. Nem is véletlen. Az ételben disznóhús volt, amire te allergiás vagy...\nVége.\nAz allergiás reakció következtében nem tudsz levegőt venni, kapálózol, de mind hiába felesleges. Elfekszel a földön. Kifújod a levegőt, és többet már nem is veszel.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                     if (meghalsz == 4)
@@ -580,9 +581,9 @@ namespace Projekt_2
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("Visszamész a kertbe, ahogy megkerülöd az épületet, látod, hogy az egyik ablak nyitva van. Felugrasz, és bemászol az ablakon, nehezen látsz hiszen nagyon nagy bent a füst, csak annyit hallasz, hogy becsapódik mögötted az ablak. Elmész a szoba végére, de az ajtó zárva, kaprod az ajtót, de az nem nyílik. Lökdösöd, de amellett hoz zárva még befelé is nyílik.\nKét órát ültél a füstben, de egyre nehezebben kapsz levegőt.\nVége.\nKapálózol, de mind hiába felesleges. Elfekszel a földön. Kifújod a levegőt, és többet már nem is veszel.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                 }
@@ -612,7 +613,7 @@ namespace Projekt_2
                                         Console.WriteLine("A gazdáid úgy gondolják, hogy mivel veszélyt jelentesz újházikedvecükre,ezmegrémítíőket.ElkezdenekfélnitőledVajohamegtámadtad a kutyát mi választ el attól, hogy majd a gyerekeket \nÚgydöntenek,hogybevisznek egymenhelyre.Tenemakarszottlennihiányzik az otthon, hiányoznak az ismerősök, hiányoznakazismerősemberek a ismerőshelyek, az ismerő tártyak,biztonságosközeg.Reccsen egy zár, törik egy ajtó egy hatalmasfehérkeverékkutyafut feléd\nVége.\nAkutyaállkapcsaiösszecsattannak, agond az,hogy te afogai közt vagy. Egyhatalmasrecsenésthallasz... asajátbordáid... többet mánemhallod areccsenést... de többé mármástsem.");
                                         Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                     if (meghalsz == 4)
@@ -658,9 +659,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 6. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\n Kinyitják az ablakot, nem tudsz időben elugrani látod, hogy a gazdádemeli a kezét, erősen megütött mire te hátraesel, egészen bele az ablak alatt lévő kerítés drótjába.\nVége.\nÉrzed, ahogyan eg egy nagy fémdarab átfúródik a testeden. Egy meleg érzés önt el. Vér. Érzed, hogy tovább zuhansz... de hirtelen már nemérzed... de többé mást sem.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                             if (meghalsz == 5)
@@ -697,8 +698,7 @@ namespace Projekt_2
                                                     {
                                                         case "1": break;
                                                         case "2": meghalsz++; break;
-                                                        default:
-                                                            break;
+                                                        default: break;
                                                     }
 
                                                     if (meghalsz == 5)
@@ -707,9 +707,9 @@ namespace Projekt_2
                                                         Console.WriteLine("\n- + - 8. nap - + -");
                                                         Console.ForegroundColor = ConsoleColor.White;
                                                         Console.WriteLine("Kapálózol a vízben. Lehet rosszkor, de most jössz rá, hogy nem tudsz úszni. Egyszer csak elmerülsz, hallod a gyerekel hangját, ahogy hívják a szüleiket. Nem mernek neked segíteni, de a szülök nem érnek od időben.\nVége.\nEgyre halkabban hallod a gyerekek hangját, míg végül teljesen eltompul... Többen nem hallasz semmit.");
-                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                         Console.ForegroundColor = ConsoleColor.Red;
-                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                         Console.ForegroundColor = ConsoleColor.White;
                                                     }
                                                     if (meghalsz == 6)
@@ -718,9 +718,9 @@ namespace Projekt_2
                                                         Console.WriteLine("\n- + - 8. nap - + -");
                                                         Console.ForegroundColor = ConsoleColor.White;
                                                         Console.WriteLine("Belekapsz a medencébe, a karmod beleakad, nem tudod elengedni, magadra rántod az egész medencét.\nVége.\n Rádtkeredik, egyre szorosabb, egyre erősebb, egyre kevesebb levegő jut be, egyre kevesebb a fény, egyre kevesebb hangot hallasz, egyre kevésbé érzel... Levegőért kapsz ahogyan a mellkasod behúzódik a medence fala jobban rád szorul... többet már nem húzódik be.");
-                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                         Console.ForegroundColor = ConsoleColor.Red;
-                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                         Console.ForegroundColor = ConsoleColor.White;
                                                     }
                                                 }
@@ -730,9 +730,9 @@ namespace Projekt_2
                                                     Console.WriteLine("\n- + - 7. nap - + -");
                                                     Console.ForegroundColor = ConsoleColor.White;
                                                     Console.WriteLine("Beleeszel a palcsintába, szokatlan íze van, de nem törődsz vele. Eszer csak valami hasító fájdalmat érzel, hátrébb képsz és ránézel az ételre. Látsz benne egy kis sárga kockát, lehet hogy az okozta a furcsa ízt?\nVége.\nPatkány méreg... hirten a fájdalmaid közepette lefeköt sem kapsz. Ugrasz eggyet hátra, amivel lelököd az egyik poharat... de többé nem löksz le semmit.");
-                                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                     Console.ForegroundColor = ConsoleColor.Red;
-                                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                     Console.ForegroundColor = ConsoleColor.White;
                                                 }
                                             }
@@ -743,9 +743,9 @@ namespace Projekt_2
                                             Console.WriteLine("\n- + - 5. nap - + -");
                                             Console.ForegroundColor = ConsoleColor.White;
                                             Console.WriteLine("A gazdáid kénytelenek feltakarítani utánnad, dühből kiraknak az ajtó elé. Meglátod, hogy egy nagy fekete rottweiler. Leblokkolsz, de még a reflekszeid képesek annyira, hogy futni kezdj, egy kis utcába kanyarodsz, mivel ritkán jársz kint így nem tudtad, hogy az ott egy zsákutca. Pedig az volt. Saroba vagy szorítva, nem tudsz átmászni. Látod hogy a kutya feléd fut, és '...\nVége.\nA rottweiler állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                             Console.ForegroundColor = ConsoleColor.Red;
-                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                             Console.ForegroundColor = ConsoleColor.White;
                                         }
                                     }
@@ -774,9 +774,9 @@ namespace Projekt_2
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("Átugrasz a szoméd telekre. Körülnézel, és egy német juhász kutya áll veled szemben. Gyorsan realizálódik benned, hogy valószínűleg ez lesz az utolsó rossz döntésed. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
 
                                 }
@@ -803,9 +803,9 @@ namespace Projekt_2
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("Beugrasz az elkerített részre. Körülnézel, és egy fekete keverék kutya áll veled szemben. Gyorsan realizálódik benned, hogy valószínűleg ez lesz az utolsó rossz döntésed. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé már mást sem.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                     if (meghalsz == 3)
@@ -833,9 +833,9 @@ namespace Projekt_2
                                             Console.WriteLine("\n- + - 4. nap - + -");
                                             Console.ForegroundColor = ConsoleColor.White;
                                             Console.WriteLine("A gazdáid végleg megélégeltek.\nAhogy beléptek az ajtón és a meglátták a meglepetésedet. Másnap beleraktak egy macskahordozóba,kivittekkétháromvárossalodébb, és kint hagytak az út szélén.\nTe meg vagy róla gyúzúdve hogy jól megleszel nélkülük is, sétálsz pár métert elaz autótól. Érzed hogy korogeggyetahasad, azonnalrájössz, hogy ez neked nem fog menni visszafutsz az autóhoz, de az akkorra már elindult\nVége.\nAz autó kereke ahogyan szépen lenyomta atestedazaszfaltra az összescsontod és szerved egyszerre roppant össze.");
-                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══\n");
+                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                             Console.ForegroundColor = ConsoleColor.Red;
-                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                             Console.ForegroundColor = ConsoleColor.White;
                                         }
 
@@ -863,9 +863,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 5. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nMásnap beleraktak egy macskahordozóba, felvittek a közeli hídra, ledobtak a hordozóvaleggyütt.\nVég\nZuhanásközbekapálóztál, lökted a rácsokat, de esélytelen becsapódtál a vízbe, mindent elöntött a víz. A hordozó súlyalehúzott a folyó aljára. Sötétedik akép,kapkodvapróbálszlevegőt venni... utoljára... a légcsövedet elönti a víz... többször már megpróbáln sem tudod.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                             if (meghalsz == 5)
@@ -874,9 +874,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 5. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nAmint meglátták hogy mit csináltál azzal a székkel arra idegből utánnad dobtak egy kalapácsot\nVége\nAkalapácsfelédrepül, a fény megtörik a fején ami a sok használattól már enyhén kopott, most mégis fényesebben tűnik mint bármi más Leblokkolsz. Nem tudszidőbenelugrani Egy erősbecsapódást érzel a fejeden, és... képszakadás... többet már nem látod a kalapács fényét, de mást sem.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                         }
@@ -899,17 +899,17 @@ namespace Projekt_2
                             switch (igen)
                             {
                                 case "1": break;
-                                default: meghalsz += 3; break;
+                                default: meghalsz += 5; break;
                             }
                             if (meghalsz == 5)
                             {
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("\n- + - 4. nap - + -");
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.WriteLine("Beugrasz az elkerített részre. Körülnézel, és egy fekete keverék kutya áll veled szemben. Gyorsan realizálódik benned, hogyvalószínűleg ez lesz az utolsó rossz döntésed. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, agond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a   saját bordáid... többet már nem hallod a reccsenést... de többé má mást sem.");
-                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                Console.WriteLine("Beugrasz az elkerített részre. Körülnézel, és egy fekete keverék kutya áll veled szemben. Gyorsan realizálódik benned, hogy valószínűleg ez lesz az utolsó rossz döntésed. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, agond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a   saját bordáid... többet már nem hallod a reccsenést... de többé má mást sem.");
+                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                 Console.ForegroundColor = ConsoleColor.White;
                             }
                             if (meghalsz == 0)
@@ -935,9 +935,9 @@ namespace Projekt_2
                                     Console.WriteLine("\n- + - 5. nap - + -");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("Beugrasz az elkerített részre. Körülnézel, és egy fekete keverék kutya áll veled szemben. Gyorsan realizálódik benned, hogyvalószínűleg ez lesz az utolsó rossz döntésed. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé má mást sem.");
-                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                                 if (meghalsz == 0)
@@ -963,9 +963,9 @@ namespace Projekt_2
                                         Console.WriteLine("\n- + - 6. nap - + -");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("Bemész az oldalsó bejáraton. Engedsz a kívácsiságodnak és közelebb mész az emberekhez. Az iszállóban rengeteg tehén áll. Ahogy közelebb érsz látod, hogy az egyikük a földön fekszik mellette egy borjúval, pár perce születhetett. Akkor meglátod, hogy mellettük áll egy fekete kutya. A kutya elkezd feléd futni, átfutott a legrosszabb eset is az agyadon. Sajnos nem elég gyorsan ahhoz, hogy elugorj.\nVége\nA kutya állkapcsai összecsattannak, a gond az, hogy te a fogai közt vagy. Egy hatalmas recsenést hallasz... a saját bordáid... többet már nem hallod a reccsenést... de többé má mást sem.");
-                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                         Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                         Console.ForegroundColor = ConsoleColor.White;
                                     }
                                     if (meghalsz == 0)
@@ -991,9 +991,9 @@ namespace Projekt_2
                                             Console.WriteLine("\n- + - 7. nap - + -");
                                             Console.ForegroundColor = ConsoleColor.White;
                                             Console.WriteLine("Megeszed az ételt, nem ismered fel az ízét, szerinted még nem is ettél ilyesmit. Nem is véletlen. Az ételben disznóhús volt, amire te allergiás vagy...\nVége.\nAz allergiás reakció következtében nem tudsz levegőt venni, kapálózol, de mind hiába felesleges. Elfekszel a földön. Kifújod a levegőt, és többet már nem is veszel.");
-                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                             Console.ForegroundColor = ConsoleColor.Red;
-                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                             Console.ForegroundColor = ConsoleColor.White;
                                         }
                                         if (meghalsz == 0)
@@ -1019,9 +1019,9 @@ namespace Projekt_2
                                                 Console.WriteLine("\n- + - 8. nap - + -");
                                                 Console.ForegroundColor = ConsoleColor.White;
                                                 Console.WriteLine("Visszamész a kertbe, ahogy megkerülöd az épületet, látod, hogy az egyik ablak nyitva van. Felugrasz, és bemászol az ablakon, nehezen látsz hiszen nagyon nagy bent a füst, csak annyit hallasz, hogy becsapódik mögötted az ablak. Elmész a szoba végére, de az ajtó zárva, kaprod az ajtót, de az nem nyílik. Lökdösöd, de amellett hoz zárva még befelé is nyílik.\nKét órát ültél a füstben, de egyre nehezebben kapsz levegőt.\nVége.\nKapálózol, de mind hiába felesleges. Elfekszel a földön. Kifújod a levegőt, és többet már nem is veszel.");
-                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                 Console.ForegroundColor = ConsoleColor.White;
                                             }
                                             if (meghalsz == 0)
@@ -1047,9 +1047,9 @@ namespace Projekt_2
                                                     Console.WriteLine("\n- + - 9. nap - + -");
                                                     Console.ForegroundColor = ConsoleColor.White;
                                                     Console.WriteLine("Megeszed az ételt, nem ismered fel az ízét, szerinted még nem is ettél ilyesmit. Nem is véletlen. Az ételben disznóhús volt, amire te allergiás vagy...\nVége.\nAz allergiás reakció következtében nem tudsz levegőt venni, kapálózol, de mind hiába felesleges. Elfekszel a földön. Kifújod a levegőt, és többet már nem is veszel.");
-                                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                    Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                     Console.ForegroundColor = ConsoleColor.Red;
-                                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                    Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                     Console.ForegroundColor = ConsoleColor.White;
                                                 }
                                                 if (meghalsz == 0)
@@ -1057,7 +1057,7 @@ namespace Projekt_2
                                                     Console.ForegroundColor = ConsoleColor.Red;
                                                     Console.WriteLine("\n- + - 9. nap - + -");
                                                     Console.ForegroundColor = ConsoleColor.White;
-                                                    Console.WriteLine("Másnap reggel fáradt vagty ezért bent maradsz a lakásban. Arra ébredsz, hogy éhes vagy...");
+                                                    Console.WriteLine("Másnap reggel fáradt vagy ezért bent maradsz a lakásban. Arra ébredsz, hogy éhes vagy...");
                                                     Console.WriteLine("1: Megeszed a kutya kajáját\n2: Megvárod, amíg a gazdáid hazajönnek és megetetnek\n\t");
                                                     igen = "";
                                                     do
@@ -1095,9 +1095,9 @@ namespace Projekt_2
                                                             Console.WriteLine("\n- + - 11. nap - + -");
                                                             Console.ForegroundColor = ConsoleColor.White;
                                                             Console.WriteLine("A gazdáid végleg megélégeltek.\nAhogy beléptek az ajtón és a meglátták a meglepetésedet. Másnap beleraktak egy macskahordozóba,kivittekkétháromvárossalodébb, és kint hagytak az út szélén.\nTe meg vagy róla gyúzúdve hogy jól megleszel nélkülük is, sétálsz pár métert elaz autótól. Érzed hogy korogeggyetahasad, azonnalrájössz, hogy ez neked nem fog menni visszafutsz az autóhoz, de az akkorra már elindult\nVége.\nAz autó kereke ahogyan szépen lenyomta atestedazaszfaltra az összescsontod és szerved egyszerre roppant össze.");
-                                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══\n");
+                                                            Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                             Console.ForegroundColor = ConsoleColor.Red;
-                                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                            Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                             Console.ForegroundColor = ConsoleColor.White;
                                                         }
 
@@ -1125,9 +1125,9 @@ namespace Projekt_2
                                                                 Console.WriteLine("\n- + - 12. nap - + -");
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nMásnap beleraktak egy macskahordozóba, felvittek a közeli hídra, ledobtak a hordozóvaleggyütt.\nVég\nZuhanásközbekapálóztál, lökted a rácsokat, de esélytelen becsapódtál a vízbe, mindent elöntött a víz. A hordozó súlyalehúzott a folyó aljára. Sötétedik akép,kapkodvapróbálszlevegőt venni... utoljára... a légcsövedet elönti a víz... többször már megpróbáln sem tudod.");
-                                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                             }
                                                             if (meghalsz == 5)
@@ -1136,9 +1136,9 @@ namespace Projekt_2
                                                                 Console.WriteLine("\n- + - 12. nap - + -");
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                                 Console.WriteLine("A gazdáid végleg megélégeltek.\nAmint meglátták hogy mit csináltál azzal a székkel arra idegből utánnad dobtak egy kalapácsot\nVége\nAkalapácsfelédrepül, a fény megtörik a fején ami a sok használattól már enyhén kopott, most mégis fényesebben tűnik mint bármi más Leblokkolsz. Nem tudszidőbenelugrani Egy erősbecsapódást érzel a fejeden, és... képszakadás... többet már nem látod a kalapács fényét, de mást sem.");
-                                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");
+                                                                Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                                 Console.ForegroundColor = ConsoleColor.Red;
-                                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                                Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                                 Console.ForegroundColor = ConsoleColor.White;
                                                             }
                                                         }
@@ -1149,11 +1149,11 @@ namespace Projekt_2
                                                         Console.ForegroundColor = ConsoleColor.Red;
                                                         Console.WriteLine("\n- + - 10. nap - + -");
                                                         Console.ForegroundColor = ConsoleColor.White;
-                                                        Console.WriteLine("Reggel úgy gondolod, hogy elmész meglátogatni kedvenc ló-barátodat.\nÁtugrasz a kerítésen kint legalább tz ló, de Őt nem látod. Felmész az istáálóhoz és látod, hogy éppen felviszik egy lószállítóra. Úgy döntesz megállítod az autót... naív... mikorra közelérsz akkorra már elindult.\nVége.\nAz autó kereke ahogyan lenyomta a tested az aszfaltra az összes csontod és szerved egyszerre roppant össze.");
+                                                        Console.WriteLine("Reggel úgy gondolod, hogy elmész meglátogatni kedvenc ló-barátodat.\nÁtugrasz a kerítésen kint legalább tíz ló, de Őt nem látod. Felmész az istállóhoz és látod, hogy éppen felviszik egy lószállítóra. Úgy döntesz megállítod az autót... naív... mikorra közelérsz akkorra már elindult.\nVége.\nAz autó kereke ahogyan lenyomta a tested az aszfaltra az összes csontod és szerved egyszerre roppant össze.");
                                                         Console.WriteLine("");
-                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══\n");
+                                                        Console.WriteLine("╔═══╗─────────╔═══╗\n║╔═╗║─────────║╔═╗║\n║║─╚╬══╦╗╔╦══╗║║─║╠╗╔╦══╦═╗\n║║╔═╣╔╗║╚╝║║═╣║║─║║╚╝║║═╣╔╝\n║╚╩═║╔╗║║║║║═╣║╚═╝╠╗╔╣║═╣║\n╚═══╩╝╚╩╩╩╩══╝╚═══╝╚╝╚══╩╝\n");  
                                                         Console.ForegroundColor = ConsoleColor.Red;
-                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t");
+                                                        Console.WriteLine("\t - ! - A játék során egy macskának sem esett bántódása! - ! -\n\t"); 
                                                         Console.ForegroundColor = ConsoleColor.White;
                                                     }
                                                 }
