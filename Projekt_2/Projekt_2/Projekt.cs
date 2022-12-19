@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Projekt_2
 {
@@ -33,10 +34,10 @@ namespace Projekt_2
                 Console.ForegroundColor = ConsoleColor.White;
                 do
                 {
-                    Console.Write("1: Bűnügyi nyomozás\n2: Macska szimulátor\n3: Kő, papir, olló\n4: Szám kitalálás\n5: Harc");
+                    Console.Write("1: Bűnügyi nyomozás\n2: Macska szimulátor\n3: Kő, papir, olló\n4: Szám kitalálás\n5: Harc\n6: Kvíz");
                     Console.WriteLine();
                     mit = Console.ReadLine();
-                } while (mit != "1" && mit != "2" && mit != "3" && mit != "4" && mit != "5");
+                } while (mit != "1" && mit != "2" && mit != "3" && mit != "4" && mit != "5" && mit != "6");
                 Console.WriteLine();
                 if (mit == "1")
                 {
@@ -1283,9 +1284,73 @@ namespace Projekt_2
                         Console.WriteLine("Sajnos vesztettél!");
                     }
                 }
+                if (mit == "6")
+                {
+                    string[] K = new string[100];
+                    int[] V = new int[100];
+                    int[] P = new int[100];
+
+                    int n = 0;
+                    string sor;
+
+                    StreamReader sr = new StreamReader("kviz.txt");
+                    sor = sr.ReadLine();
+                    while (!sr.EndOfStream)
+                    {
+                        sor = sr.ReadLine();
+                        string[] D = sor.Split(';');
+                        K[n] = D[0];
+                        V[n] = int.Parse(D[1]);
+                        P[n] = int.Parse(D[2]);
+                        n++;
+                    }
+
+                    sr.Close();
+
+                    Random r = new Random();
+                    int szam = r.Next(n);
 
 
-                do
+
+                    int[] INDEX = new int[10];
+                    int idb = 0;
+                    while (idb < 10)
+                    {
+                        int szam2 = r.Next(0, 10);
+                        int x = 0;
+                        while (x < idb && !(szam2 == INDEX[x]))
+                        {
+                            x++;
+                        }
+                        if (!(x < idb))
+                        {
+                            INDEX[idb] = szam2;
+                            idb++;
+                        }
+                    }
+                    int osszpont = 0;
+
+                    for (int i = 0; i < 10; i++)
+                    {
+                        int y = INDEX[i];
+                        Console.Write(K[y] + " ");
+                        int valasz = int.Parse(Console.ReadLine());
+                        if (V[y] == valasz)
+                        {
+                            Console.WriteLine("Helyes válasz.");
+                            osszpont = osszpont + P[y];
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("Helytelen. A helyes: " + V[y]);
+                        }
+                    }
+
+                    Console.WriteLine("Összpontjaid: " + osszpont);
+                }
+
+                    do
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("\n\nAkarsz még játszani? [i/n]");
