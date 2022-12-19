@@ -1287,7 +1287,7 @@ namespace Projekt_2
                 if (mit == "6")
                 {
                     string[] K = new string[100];
-                    int[] V = new int[100];
+                    string[] V = new string[100];
                     int[] P = new int[100];
 
                     int n = 0;
@@ -1300,7 +1300,7 @@ namespace Projekt_2
                         sor = sr.ReadLine();
                         string[] D = sor.Split(';');
                         K[n] = D[0];
-                        V[n] = int.Parse(D[1]);
+                        V[n] = D[1];
                         P[n] = int.Parse(D[2]);
                         n++;
                     }
@@ -1334,7 +1334,7 @@ namespace Projekt_2
                     {
                         int y = INDEX[i];
                         Console.Write(K[y] + " ");
-                        int valasz = int.Parse(Console.ReadLine());
+                        string valasz = Console.ReadLine();
                         if (V[y] == valasz)
                         {
                             Console.WriteLine("Helyes válasz.");
